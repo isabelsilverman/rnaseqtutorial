@@ -1,0 +1,12 @@
+name: isabelsilverman-rnaseqtutorial-1.0
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc=0.11.8
+  - star=2.6.1d # don't upgrade me - 2.7X indices incompatible with iGenomes.
+  - hisat2=2.1.0
+  - picard=2.18.27
+  - rseqc=2.6.2
+  - samtools=1.3
